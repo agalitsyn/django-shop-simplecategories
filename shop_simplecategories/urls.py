@@ -1,5 +1,5 @@
 #-*- coding: utf-8 -*-
-from django.conf.urls.defaults import patterns, url
+from django.conf.urls import patterns, url
 from shop.views import ShopListView
 from shop_simplecategories.models import Category
 from shop_simplecategories.views import CategoryDetailView
